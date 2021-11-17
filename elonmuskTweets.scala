@@ -86,10 +86,10 @@ object elonmuskTweets {
     newDF2.show(5)
 
     // print the data as tupels
-   /*val newRDD=newDF2.rdd
+   val newRDD=newDF2.rdd
     newRDD
       .map(line => (word,line(0),line(1)))
-      .foreach(println(_).)*/
+      .foreach(println(_))
 
     })
 
