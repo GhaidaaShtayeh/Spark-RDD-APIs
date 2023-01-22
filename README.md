@@ -16,6 +16,7 @@ The application is run by inputting the keywords in a comma-separated list as a 
 For example, to run the application with keywords "Tesla" and "SpaceX", the command to run the application is as follows:
 
 `SparkRDD.scala Tesla, SpaceX`
+
 The application will output the following statistics for each keyword entered:
 - Day-wise distribution of keywords over time, i.e., the number of times each keyword is mentioned every day. For example, the output will be in the format of: (k1, 2-3-2021, 34), (k1, 3-3-2021, 14)
 - The percentage of tweets that have at least one of these input keywords.
